@@ -28,7 +28,6 @@ def WordCounter(*args):
         textLabel3.configure(text=f"Repeated Words: {', '.join(b)}")
 
 
-
 app = ctk.CTk()
 app.geometry("500x500")
 app.resizable(False, False)
