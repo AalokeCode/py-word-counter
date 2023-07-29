@@ -21,7 +21,12 @@ def WordCounter(*args):
     if len(repeated_words) == 0:
         textLabel3.configure(text=f"Repeated Words: None")
     else:
-        textLabel3.configure(text=f"Repeated Words: {repeated_words}")
+        b = []
+        a = zip(repeated_words.keys(), repeated_words.values())
+        for i in a:
+            b.append(f"{i[0]}: {i[1]}")
+        textLabel3.configure(text=f"Repeated Words: {', '.join(b)}")
+
 
 
 app = ctk.CTk()
