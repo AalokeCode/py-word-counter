@@ -1,21 +1,48 @@
-# Python Word Counter
-<img src="resources/logo.png">
-A simple python word counter with Custom TKinter
+# Word Counter
 
-## Features
-- Counts the characters and words
-- Sets to dark mode or light mode depending on the system
-- Counts the words repeated (per word)
+## About the Project
+The Word Counter is an intuitive and efficient tool designed to count words in a text, providing users with a clear and immediate word count through a sleek and user-friendly interface. Built with Python and leveraging the powerful `customtkinter` library, this application offers a seamless experience for anyone needing to quickly and accurately count words in their documents.
 
-## How to use
-- Head over to releases and install the latest release
-- Open the file and run the code
+## Purpose
+The purpose of the Word Counter project is to offer a straightforward solution for counting words in any given text. By utilizing the `customtkinter` library, this application demonstrates the ease of creating attractive and functional GUI applications with Python. The project aims to be a valuable resource for writers, students, and professionals who require a quick word count for their work.
 
-`Note that it is just a sample build. You can clone this and contribute the code or improve the overall code for further use feedbacks are appreciated`
+## Preview
+https://github.com/AverageBlank/WordCounter/assets/112507212/67527b23-6318-49a9-9380-b0395a3c2a7a
 
-## Requirements
-- Python
-- To install to pip libraries:
-```
-pip install -r requirements.txt
-```
+## Setting Up Locally
+
+### Prerequisites
+Make sure you have Python installed on your system.
+
+- **[Python](https://www.python.org/downloads/)**: Download and install Python.
+
+### Installation Steps
+
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/AverageBlank/WordCounter.git
+    cd WordCounter
+    ```
+
+2. **Create a virtual environment**
+    ```bash
+    python -m venv venv
+    venv\Scripts\activate  # On bash use `source venv/bin/activate`
+    ```
+
+3. **Install the required libraries**
+    ```bash
+    pip install customtkinter
+    ```
+
+4. **Run the application**
+    ```bash
+    python main.py
+    ```
+
+## Languages Used
+- **Python**: The primary programming language used for developing the application.
+
+## Libraries Used
+- **OS**: A standard library used to interact with the operating system.
+- **CustomTkinter**: A modern and customizable library for creating Tkinter-based graphical user interfaces with enhanced aesthetics and functionality.
